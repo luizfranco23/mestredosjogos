@@ -5,21 +5,11 @@ import group from '../../img/group.png'
 import purshe from '../../img/purshe.png'
 
 
-declare global {
-    interface Window {
-        gtag: any;
-    }
-}
+
+
 
 export function Body() {
-    const trackButtonClicked = () => {
-        if (window.gtag) {
-            window.gtag('event', 'button_click', {
-                'event_category': 'Botões',
-                'event_label': 'Botão Clicado',
-            });
-        }
-    };
+
     return (
         <S.ContainerBody>
             <S.ContainerCard>
@@ -34,7 +24,6 @@ export function Body() {
                         <img src={group} alt="Vem para o grupo" />
                     </S.Phrase>
                     <S.Button
-                        onClick={trackButtonClicked}
                         href='https://chat.whatsapp.com/Ei0bNZS3oCkC93fIuGE1xY'>
                         ENTRAR
                     </S.Button>
