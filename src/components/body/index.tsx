@@ -5,10 +5,21 @@ import group from '../../img/group.png'
 import purshe from '../../img/purshe.png'
 
 
-
-
+declare global {
+    interface Window {
+        gtag: (...args: any[]) => void;
+    }
+}
 
 export function Body() {
+
+    const handleEntrarClick = () => {
+        window.gtag('event', 'click', {
+            event_category: 'button_click',
+            event_label: 'entrar_button'
+        });
+    };
+
 
     return (
         <S.ContainerBody>
@@ -24,6 +35,8 @@ export function Body() {
                         <img src={group} alt="Vem para o grupo" />
                     </S.Phrase>
                     <S.Button
+                        onClick={handleEntrarClick}
+
                         href='https://chat.whatsapp.com/Ei0bNZS3oCkC93fIuGE1xY'>
                         ENTRAR
                     </S.Button>
