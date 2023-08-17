@@ -1,5 +1,4 @@
 import * as S from './styles'
-import logo from '../../img/logomestre.svg'
 import phrase from '../../img/purshe.png'
 import screenone from '../../img/screenone.png'
 import screentwo from '../../img/screentwo.png'
