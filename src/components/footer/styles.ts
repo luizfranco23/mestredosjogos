@@ -26,7 +26,7 @@ export const Screenshots = styled.div`
   z-index: 10;
 
   @media (max-width: 1300px) {
-    width: 140%;
+    width: 100%;
   }
 `;
 

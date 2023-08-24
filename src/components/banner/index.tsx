@@ -12,7 +12,6 @@ import image7 from '../../img/phone/7.png'
 import image8 from '../../img/phone/8.png'
 
 
-
 export function Banner() {
 
     return (
@@ -22,7 +21,7 @@ export function Banner() {
             infiniteLoop
             autoPlay
             showStatus={false}
-            interval={2000}
+            interval={3000}
         >
             <div><img src={image7} alt="Depoimento" /></div>
             <div><img src={image2} alt="Depoimento" /></div>
