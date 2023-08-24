@@ -24,7 +24,6 @@ export function Body() {
     return (
         <S.ContainerBody>
             <S.ContainerCard>
-
                 <S.Card>
                     <S.LogoCard><img src={logo} alt="Mestre dos Jogos" /></S.LogoCard>
 

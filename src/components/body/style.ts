@@ -14,7 +14,7 @@ export const ContainerBody = styled.div`
 
   @media (max-width: 1300px) {
     height: auto;
-    padding-top: 100px;
+    padding-top: 30px;
   }
 `;
 
@@ -51,11 +51,12 @@ export const Card = styled.div`
   @media (max-width: 1200px) {
     width: 45%;
     height: 700px;
+    gap: 90px;
   }
 
   @media (max-width: 700px) {
     width: 80%;
-    height: 700px;
+    height: 600px;
   }
 
   @keyframes pulse {
@@ -99,7 +100,7 @@ export const Imagem = styled.div`
 
   @media (max-width: 1300px) {
     img {
-      width: 500px;
+      width: 400px;
     }
   }
 
@@ -130,11 +131,13 @@ export const Phrase = styled.div`
   align-items: center;
   justify-content: center;
   img {
-    width: 400px;
+    width: 500px;
   }
   @media (max-width: 1300px) {
+    margin-top: 10px;
+
     img {
-      width: 300px;
+      width: 350px;
     }
   }
 `;
@@ -150,8 +153,9 @@ export const PhraseTwo = styled.div`
   }
 
   @media (max-width: 1300px) {
+    margin-top: 40px;
     img {
-      width: 300px;
+      width: 400px;
     }
   }
 `;
@@ -200,8 +204,8 @@ export const Button = styled.a`
   }
 
   @media (max-width: 1300px) {
-    width: 250px;
-    height: 50px;
-    font-size: 25px;
+    width: 300px;
+    height: 70px;
+    font-size: 35px;
   }
 `;

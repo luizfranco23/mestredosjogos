@@ -4,7 +4,7 @@ import * as S from './styles'
 export function Header() {
     return (
         <S.Header>
-            <h1>Receba dicas e saiba como jogar</h1>
+            <h1>RECEBA DICAS E SAIBA COMO JOGAR</h1>
         </S.Header>
     )
 }
