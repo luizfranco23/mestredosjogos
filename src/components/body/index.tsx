@@ -36,7 +36,7 @@ export function Body() {
                     <S.Button
                         onClick={handleEntrarClick}
 
-                        href='https://chat.whatsapp.com/Ei0bNZS3oCkC93fIuGE1xY'>
+                        href='https://chat.whatsapp.com/JHUdeQhNce0CL6aMgNpZG0'>
                         ENTRAR
                     </S.Button>
                 </S.Card>
